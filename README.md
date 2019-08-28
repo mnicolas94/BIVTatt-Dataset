@@ -20,6 +20,7 @@ The dataset augmentation was done using the [Imgaug](https://github.com/aleju/im
 x1 y1 x2 y2  
 , where [x1, y1] is the coordinate of the top-left corner of the bounding box, and [x2, y2] is the coordinate of the bottom-right corner.
 
+## Identification protocol
 The identification protocol we use with this dataset is as follows. We use the cropped tattoos, not the entire image. The probe set consists of the transformed images and for each one, the gallery is composed of all the original images, except for the image that originate that transformed image. Thus, we simulate a real scenario of forensic identification. Specifically, the probe set consists of 1540 images and the gallery of 209 images. Note that exists a total of 4200 transformed images, but only 1540 were used in the probe set. This is due to the fact that not all tattoo original images have a matching original image pair. So, for their transformed images, there is not a matching pair either in the gallery. Also, for images that contain more than one tattoo, we just use the first annotated tattoo, i.e., the tattoo that has its bounding box annotated first in the bounding boxes file (the first annotated tattoo is the most relevant tattoo in the image).
 
 ## NOTES
