@@ -1,7 +1,5 @@
 # BIVTatt-Dataset
 
-Dataset name: BIVTatt
-
 The BIVTatt dataset contains 210 original images of tattoos, and 4200 generated images after applying 20 different types of transformations to the original images.
 
 ## Structure
