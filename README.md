@@ -28,13 +28,14 @@ The identification protocol we use with this dataset is as follows. We use the c
 
 If you use this dataset, we recommend you to reference the following paper:
 
-BibTeX:
-@inproceedings{miguel19,
-author={Nicolás-Díaz, Miguel, and Morales-González, Annette and Méndez-Vázquez, Heydi },
-title={Deep Generic Features for Tattoo Identification},
-booktitle={Iberoamerican Congress on Pattern Recognition},
-year={2019},
-organization={Springer}
+BibTeX
+@inproceedings{nicolas2019deep,
+  title={Deep Generic Features for Tattoo Identification},
+  author={Nicol{\'a}s-D{\'\i}az, Miguel and Morales-Gonz{\'a}lez, Annette and M{\'e}ndez-V{\'a}zquez, Heydi},
+  booktitle={Iberoamerican Congress on Pattern Recognition},
+  pages={272--282},
+  year={2019},
+  organization={Springer}
 }
 
 If you have any doubt, please contact:  
